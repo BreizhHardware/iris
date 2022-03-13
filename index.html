@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="assets/js/main.js"></script>
+        <title>Famille Iris</title>
+    </head>
+
+    <body>
+        <h1 class="titre"><a href="https://fr.wikipedia.org/wiki/Iris_(genre_v%C3%A9g%C3%A9tal)">Iris</a></h1>
+        <p> il existe plusieurs fleus d'iris, ce site vous permet de déduire l'esp<a href= https://www.monkee.games/4.html>è</a>ce en fonction des caractéristiques de l'espèces</p>
+        <p> il faut au minimum deux critères pour une recherche pertinente</p>
+
+        <form action="cgi-bin/iris.py" name="features"><center><p>longueur des sépales</p></center><tr> <td> <center><input name="sepal-length" step="0.1" size="7" type="number"> </td></tr></center><br>
+        <center><p>largeur des sépales</p></center> <tr> <td> <center><input name="sepal-width" step="0.1" size="7" type="number"></center> </td></tr><br>
+        <center><p>longueur des pétales</p></center><tr> <td> <center><input name="petal-length" step="0.1" size="7" type="number"></center> </td></tr><br>
+        <center><p>largeur des pétales</p></center><tr> <td> <center><input name="petal-width" step="0.1" size="7" type="number"></center> </td></tr>  </p><br>
+        <center>
+            <input class="favorite styled"
+            type="submit"
+            onclick="return checkFeatures()"
+            value="Trouver l'iris">
+    </center>
+    </form>
+        <script src="assets/js/main.js"></script> 
+    </body>

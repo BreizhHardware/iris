@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="assets/css/style_iris.css" />
+        <title>Résultat</title>
+    </head>
+    <body>
+        <h1 class="titre">Reconnaissance d'une iris</h1>
+        <ul><li>Longeur des sépales: $longeur$</li></ul><br>
+        <ul><li>Largeur des sépales: $largeur$</li></ul>
+        <p>Il s'agit probablement de l'espèce <strong>$espèce$</strong></p>
+        <div style = "position:relative; left:850px; bottom:250px";
+        <center><img src = assets/pic/versi.jpeg></center>
+        
+    </body>

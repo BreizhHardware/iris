@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'viaoda_libreregular';
+  src: url('fronts/go3v2.woff2') format('woff2'),
+       url('fronts/go3v2.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: -moz-linear-gradient(to right, #00ccff, #1900ff);
+	background-image: -webkit-linear-gradient(to right, #00ccff, #1900ff);
+	background-image: -ms-linear-gradient(to right, #00ccff, #1900ff);
+	background-image: linear-gradient(to right, #00ccff, #1900ff);
+}
+h1 {
+  font-family: 'viaoda_libreregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60pt;
+  text-align: center ;
+}
+
+
+.center {
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+p {
+  font-family: 'viaoda_libreregular';
+  font-weight: normal;
+  font-size: 16pt;
+  font-style: normal;
+}
+
+img {
+  display: block ;
+  width: 35% ;       /* Les images occupent 35% de la largeur de la page */
+}
+
+/* Concerne la balise <table>...</table> */
+table {
+  margin-top: 3em ;
+  margin-bottom: 3em ;
+}

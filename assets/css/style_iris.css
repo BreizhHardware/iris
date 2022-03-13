@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'viaoda_libreregular';
+    src: url('fronts/28DaysLater.woff2') format('woff2'),
+         url('fronts/28DaysLater.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  body {
+    /*width: 1920px;
+    height: 1080px;*/
+    background-image: url("../pic/monkey.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;  
+    /*background-size: 1920px;*/
+  }
+  h1 {
+    font-family: 'viaoda_libreregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60pt;
+    text-align: center ;
+  }
+  
+  
+  .center {
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  
+  p {
+    font-family: 'viaoda_libreregular';
+    font-weight: normal;
+    font-size: 20pt;
+    font-style: normal;
+  }
+
+  li {
+    font-family: 'viaoda_libreregular';
+    font-weight: normal;
+    font-size: 20pt;
+    font-style: normal;
+  }
+  
+  img {
+    position: absolute;
+    object-position: right;
+    width:30%;
+    height: auto;
+  }
+  
+  table {
+    margin-top: 3em ;
+    margin-bottom: 3em ;
+  }
